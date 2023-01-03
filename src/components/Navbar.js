@@ -11,20 +11,25 @@ const handleNav = () =>{
 setNav(!nav);
   }
 
+nav?document.body.style.overflow="hidden":document.body.style.overflow="auto"
+  
 return(
 <nav className="navbar">
-<img src="logo.png" alt="logo"/>
+<Link to="/"><img src="logo.png" alt="logo" /></Link>
 <ul id="navbarSupportedContent">
-           <li className="nav-link" aria-current="page"><Link to="/">Home</Link></li>
-          <li className="nav-link"><Link to="/testimonials">About</Link></li>
-          <li className="nav-link"><Link to="/thoughts">News</Link></li>
+          <li className="nav-link" aria-current="page"><Link to="/">Home</Link></li>
+          <li className="nav-link"><Link to="/about">About</Link></li>
+          <li className="nav-link"><Link to="/news">News</Link></li>
           <li className="nav-link"><Link to="/contact">Contact</Link></li>
   </ul>
   {nav?
 <ul id="navbarSupportedContentMobile">
            <li className="nav-link" aria-current="page"><Link to="/">Home</Link></li>
-          <li className="nav-link"><Link to="/testimonials">About</Link></li>
-          <li className="nav-link"><Link to="/thoughts">News</Link></li>
+          <hr/>
+          <li className="nav-link"><Link to="/about">About</Link></li>
+          <hr/>
+          <li className="nav-link"><Link to="/news">News</Link></li>
+          <hr/>
           <li className="nav-link"><Link to="/contact">Contact</Link></li>
   </ul>:null}
 
