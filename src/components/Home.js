@@ -60,7 +60,7 @@ const Home = () =>{
 
 </div>
 <div className="finalists-head">
-<h1>TOP 3 FINALISTS</h1>
+<h2>TOP 3 FINALISTS</h2>
 </div>
 <div className="finalists">
 <div className="column">

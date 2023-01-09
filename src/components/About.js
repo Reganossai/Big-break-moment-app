@@ -45,7 +45,7 @@ const About = () =>{
 <div className="abb">
 <h1> What The Big Break Moment Is All About</h1>
 <h3> The Big Break Moment was founded by Mr Tayo Folorunsho, who also appears to be the chief executive officer(C.E.O) . He founded this prestigious show to provide a platform to showcase youth talent across Nigeria., entertain TV viewers, as well as creating employment opportunities for the youth. </h3> 
-<a href="https://www.instagram.com/mrteeflo"> CONNECT WITH TAYO</a>
+<a href="https://www.instagram.com/mrteeflo"> CONNECT WITH MR TAYO</a>
 </div>
 <div className="talent-div">
 <div className="talent">
